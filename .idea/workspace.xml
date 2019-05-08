@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d32ab0-1b76-43a5-acc4-3cf14170c9e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/signUp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/getUserDetail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,17 +35,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="450">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/login.php">
+        <entry file="file://$PROJECT_DIR$/api/getUserDetail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="340">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/logIn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,8 +80,10 @@
         <option value="$PROJECT_DIR$/auth/db.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/api/signUp.php" />
-        <option value="$PROJECT_DIR$/api/functions.php" />
         <option value="$PROJECT_DIR$/api/login.php" />
+        <option value="$PROJECT_DIR$/api/logIn.php" />
+        <option value="$PROJECT_DIR$/api/functions.php" />
+        <option value="$PROJECT_DIR$/api/getUserDetail.php" />
       </list>
     </option>
   </component>
@@ -142,18 +150,21 @@
       <workItem from="1556238379162" duration="23000" />
       <workItem from="1556238424308" duration="1957000" />
       <workItem from="1556818907955" duration="5159000" />
-      <workItem from="1556845502696" duration="3827000" />
+      <workItem from="1556845502696" duration="4149000" />
+      <workItem from="1556908642867" duration="626000" />
+      <workItem from="1557011482478" duration="133000" />
+      <workItem from="1557242344871" duration="645000" />
+      <workItem from="1557259784638" duration="3126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12782000" />
+    <option name="totallyTimeSpent" value="17634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923196" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" sideWeight="0.50076807" side_tool="true" weight="0.25718608" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,15 +223,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state relative-caret-position="450">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/login.php">
+    <entry file="file://$PROJECT_DIR$/api/logIn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/getUserDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
